@@ -1,6 +1,7 @@
 <phpunit
     processIsolation="true"
     bootstrap="vendor/autoload.php"
+    convertNoticesToExceptions="false"
     >
     <testsuites>
         <testsuite name="unit">
