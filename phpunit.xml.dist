@@ -1,15 +1,14 @@
 <phpunit
     processIsolation="true"
     bootstrap="vendor/autoload.php"
-
-    >
     <testsuites>
-<!--         <testsuite name="unit">
 
-        </testsuite> -->
+    <testsuite name="unit">
+
+ <--   </testsuite> 
         <testsuite name="integration">
             <directory>classes/Tests</directory>
-        </testsuite>
+        </testsuite> -->
     </testsuites>
     <logging>
         <log type="coverage-clover" target="clover.xml"/>
