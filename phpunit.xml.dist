@@ -3,10 +3,10 @@
     bootstrap="vendor/autoload.php"
     <testsuites>
 
-    <testsuite name="unit">
+        <testsuite name="unit">
 
- <--   </testsuite> 
-        <testsuite name="integration">
+        </testsuite> 
+        <!-- <testsuite name="integration">
             <directory>classes/Tests</directory>
         </testsuite> -->
     </testsuites>
