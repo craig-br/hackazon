@@ -6,9 +6,10 @@
         <testsuite name="unit">
 
         </testsuite> 
-        <!-- <testsuite name="integration">
+        <testsuite name="integration">
             <directory>classes/Tests</directory>
-        </testsuite> -->
+            <exclude>/path/to/exclude</exclude>
+        </testsuite>
     </testsuites>
     <logging>
         <log type="coverage-clover" target="clover.xml"/>
