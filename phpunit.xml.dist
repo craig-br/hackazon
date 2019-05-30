@@ -9,6 +9,7 @@
         <testsuite name="integration">
             <directory>classes/Tests</directory>
             <exclude>classes/Tests/AmfphpModule</exclude>
+            <exclude>classes/Tests/App</exclude>
         </testsuite>
     </testsuites>
     <logging>
