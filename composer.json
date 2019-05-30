@@ -28,7 +28,7 @@
     "repositories": [
         {
             "type": "package",
-            "package": 
+            "package": {
                 "name": "hackazon/amfphp",
                 "version": "dev-master",
                 "dist": {
