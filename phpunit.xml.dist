@@ -4,9 +4,9 @@
 
     >
     <testsuites>
-        <testsuite name="unit">
+<!--         <testsuite name="unit">
 
-        </testsuite>
+        </testsuite> -->
         <testsuite name="integration">
             <directory>classes/Tests</directory>
         </testsuite>
