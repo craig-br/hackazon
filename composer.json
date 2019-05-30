@@ -28,7 +28,7 @@
     "repositories": [
         {
             "type": "package",
-            "package": {
+            "package": 
                 "name": "hackazon/amfphp",
                 "version": "dev-master",
                 "dist": {
@@ -55,7 +55,8 @@
         "apache/log4php": "2.3.0",
         "silex/silex": "dev-master#4a79566ea01041ed5cd43d0cdbaad9452673dad8",
         "phpunit/phpunit": "3.7.*",
-        "fabpot/goutte": "~2.0"
+        "fabpot/goutte": "~2.0",
+        "squizlabs/php_codesniffer": "3.*"
     },
     "extra": {
         "branch-alias": {
